@@ -108,6 +108,6 @@ __License__
 MIT License — free to use and modify on my permission **aniduyakbu@gmail.com**.  
 
 __Contributing__  
-PRs and suggestions are welcome! Please fork the repo and submit changes via pull request.  
+I call on fellow developers and potential sponsors to join hands in making this project a reality. This can be a Sadaqatul Jariyah, that is, a continuous charity that lives on and benefit generations even after we are gone. **+2348160170296**.  
 
 ## Author: Anidu Yakubu Khalid
