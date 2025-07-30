@@ -1,13 +1,13 @@
-# 🎧 Quran Verse Recognition Web App
+# Quran Verse Recognition Web App
 
 This is an AI-powered web application that allows users to **recite Quranic verses using a microphone**, and automatically identifies the verse using OpenAI's Whisper and fuzzy text matching.
 
-## ✨ Features
+## Features
 
-- 🎙️ Record your voice directly in the browser  
-- 🧠 Transcribe speech using **Whisper (large-v3)** locally (no API key needed)  
-- 📖 Match transcription to closest Quran verse using fuzzy logic  
-- 📜 Display the matched Surah, Ayah, and original Arabic text  
+- Record your voice directly in the browser  
+- Transcribe speech using **Whisper (large-v3)** locally (no API key needed)  
+- Match transcription to closest Quran verse using fuzzy logic  
+- Display the matched Surah, Ayah, and original Arabic text  
 
 ---
 
@@ -29,28 +29,31 @@ This is an AI-powered web application that allows users to **recite Quranic vers
   
 ```
 git clone https://github.com/yourusername/quran-verse-recognition.git  
-cd quran-verse-recognition  
-2. Install Backend Dependencies  
+cd quran-verse-recognition
+```
 
+2. Install Backend Dependencies  
+```
 cd backend  
 python -m venv venv  
 source venv/bin/activate  # or venv\Scripts\activate on Windows  
 pip install -r requirements.txt  
 Make sure ffmpeg is installed and added to your system PATH.  
-
+```
 3. Run the FastAPI Server  
-
-uvicorn app.main:app --reload --port 8000   
+```
+uvicorn app.main:app --reload --port 8000
+``` 
 4. Run the React Frontend  
-
+```
 cd frontend  
 npm install  
 npm start  
 Your app will be available at http://localhost:3000  
+```
+Directory Structure  
 
-🗂 Directory Structure  
-
-
+```
 ├── backend/  
 │   ├── app/  
 │   │   ├── main.py          # FastAPI route handler  
@@ -60,23 +63,24 @@ Your app will be available at http://localhost:3000
 ├── frontend/  
 │   ├── App.js               # Main React app  
 │   ├── MicRecorder.js       # Microphone logic + fetch  
-│   ├── App.css              # Optional styles  
-🔮 Planned Improvements  
+│   ├── App.css              # Optional styles
+```
+Planned Improvements  
 We plan to add the following features in the future:  
 
-📌 Tafsir (verse explanations) via AI or public APIs  
+Tafsir (verse explanations) via AI or public APIs  
 
-🌍 Language detection and translation  
+Language detection and translation  
 
-📊 Pronunciation scoring  
+Pronunciation scoring  
 
-🗺️ Similarity heatmaps (e.g., matched words)  
+Similarity heatmaps (e.g., matched words)  
 
-💬 Feedback loop for user-corrected matches  
+Feedback loop for user-corrected matches  
 
-📱 Mobile responsiveness & offline support  
+Mobile responsiveness & offline support  
 
-🧠 AI Use Summary  
+AI Use Summary  
 This project uses:  
  
 OpenAI Whisper (large-v3) for automatic speech recognition  
@@ -85,7 +89,7 @@ Fuzzy text matching to approximate verse identity
 
 (Coming soon: LLMs for tafsir and feedback)  
 
-🛠️ Requirements  
+Requirements  
 Python 3.8+  
 
 Node.js (for React frontend)  
@@ -100,10 +104,10 @@ Pydub
 
 fuzzywuzzy  
 
-📝 License  
-MIT License — free to use and modify.  
+License  
+MIT License — free to use and modify on my permission aniduyakbu@gmail.com.  
 
-🤝 Contributing  
+Contributing  
 PRs and suggestions are welcome! Please fork the repo and submit changes via pull request.  
 
 ## Author: Anidu Yakubu Khalid
