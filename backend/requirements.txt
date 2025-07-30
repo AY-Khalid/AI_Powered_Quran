@@ -1,0 +1,14 @@
+fastapi 
+uvicorn 
+python-multipart 
+pydub 
+transformers 
+torchaudio 
+fuzzywuzzy 
+python-Levenshtein
+transformers
+torch 
+torchvision 
+librosa
+openai 
+tqdm

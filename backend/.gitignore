@@ -1,0 +1,38 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment
+.env
+.venv/
+env/
+venv/
+pip-log.txt
+
+# PyInstaller
+*.spec
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Logs and database
+*.log
+*.sqlite3
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+quran_info.docx
+
+test_audio.wav
+
+test_transcribe.py
+
+enrich_quran.py

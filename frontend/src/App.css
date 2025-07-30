@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f9fa;
+  margin: 20px;
+  padding: 0;
+  color: #333;
+}
+
+.app-container {
+  max-width: 70%;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 10px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #2ecc71;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #616161;
+}
+
+.transcript,
+.result {
+  background-color: #ecf0f1;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+
+.button-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.refresh-button {
+  padding: 8px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(87, 87, 244);
+}
+
+.transcript, .result {
+  margin-top: 20px;
+}
+
+.match-container {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.arabic-text {
+  direction: rtl;
+  text-align: right;
+  font-size: 1.25em;
+  /* margin-top: 2px; */
+}
