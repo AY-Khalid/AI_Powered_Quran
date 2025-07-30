@@ -7,7 +7,7 @@ from app.matcher import match as match_quran_verse
 
 app = FastAPI()
 
-# Optional: Add CORS middleware for frontend access
+# Add CORS middleware for frontend access
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # Or restrict to ["http://localhost:3000"]
