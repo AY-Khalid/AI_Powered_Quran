@@ -11,7 +11,7 @@ This is an AI-powered web application that allows users to **recite Quranic vers
 
 ---
 
-## 🧩 Tech Stack  
+## Tech Stack  
 
 | Layer       | Tech                                 |  
 |-------------|--------------------------------------|  
@@ -23,7 +23,7 @@ This is an AI-powered web application that allows users to **recite Quranic vers
 
 ---
 
-## 🚀 How to Run Locally  
+## How to Run Locally  
 
 ### 1. Clone the Repo  
   
