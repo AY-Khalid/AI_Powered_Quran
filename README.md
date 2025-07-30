@@ -65,49 +65,49 @@ Directory Structure
 │   ├── MicRecorder.js       # Microphone logic + fetch  
 │   ├── App.css              # Optional styles
 ```
-Planned Improvements  
+**Planned Improvements**  
 We plan to add the following features in the future:  
 
-Tafsir (verse explanations) via AI or public APIs  
+- Tafsir (verse explanations) via AI or public APIs  
 
-Language detection and translation  
+- Language detection and translation  
 
-Pronunciation scoring  
+- Pronunciation scoring  
 
-Similarity heatmaps (e.g., matched words)  
+- Similarity heatmaps (e.g., matched words)  
 
-Feedback loop for user-corrected matches  
+- Feedback loop for user-corrected matches  
 
-Mobile responsiveness & offline support  
+- Mobile responsiveness & offline support  
 
-AI Use Summary  
+**AI Use Summary**  
 This project uses:  
  
-OpenAI Whisper (large-v3) for automatic speech recognition  
+- OpenAI Whisper (large-v3) for automatic speech recognition  
 
-Fuzzy text matching to approximate verse identity  
+- Fuzzy text matching to approximate verse identity  
 
-(Coming soon: LLMs for tafsir and feedback)  
+__(Coming soon: LLMs for tafsir and feedback)__  
 
-Requirements  
-Python 3.8+  
+**Requirements**  
+- Python 3.8+  
 
-Node.js (for React frontend)  
+- Node.js (for React frontend)  
 
-FFmpeg (ffmpeg in PATH)  
+- FFmpeg (ffmpeg in PATH)  
 
-Whisper & HuggingFace Transformers  
+- Whisper & HuggingFace Transformers  
 
-Torchaudio  
+- Torchaudio  
 
-Pydub  
+- Pydub  
 
-fuzzywuzzy  
+- fuzzywuzzy  
 
-License  
-MIT License — free to use and modify on my permission aniduyakbu@gmail.com.  
+__License__  
+MIT License — free to use and modify on my permission **aniduyakbu@gmail.com**.  
 
-Contributing  
+__Contributing__  
 PRs and suggestions are welcome! Please fork the repo and submit changes via pull request.  
 
 ## Author: Anidu Yakubu Khalid
